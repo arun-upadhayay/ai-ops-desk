@@ -1,0 +1,36 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Env files (secrets)
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Build outputs
+dist/
+build/
+out/
+
+# Next.js
+.next/
+.vercel/
+
+# Backend runtime
+backend/dist/
+backend/tmp/
+backend/uploads/
+
+# Docker volumes (if any local)
+pgdata/
